@@ -1,17 +1,4 @@
-import time
-
-def printLow(Str):
-       
-       for char in Str:
-
-              print(char, end="", flush=True) 
-
-              time.sleep(.01)
-
-printLow(f"""
-
-
- import smtplib
+import smtplib
 import time
 import os,sys
 from colorama import Fore
@@ -65,6 +52,3 @@ try:
     mail.close()
 except Exception as e:
     print("Something is wrong, please Re-try Again with Valid input.")
-
-
-""")
